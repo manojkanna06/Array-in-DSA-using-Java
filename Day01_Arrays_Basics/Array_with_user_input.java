@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ArrayBasic {
+public class Array_with_user_input {
       public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         // Array declaration and input
