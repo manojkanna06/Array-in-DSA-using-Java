@@ -41,6 +41,14 @@ public class Array_with_user_input {
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
+        //searching
+            System.out.println("Value to search");
+            int key=sc.nextInt();
+            for(int i=0;i<=arr.length();i++){
+                  if(arr[i]==key){
+                        System.out.println("Element found at"+arr[i]);
+                  }
+            }
         //max
         int max = arr[0];
         for (int i = 1; i <=arr.length-1; i++){     
