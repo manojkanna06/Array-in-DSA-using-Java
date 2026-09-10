@@ -1,6 +1,7 @@
 /*[40,10,30,20]
 before
 bubble takes 2 elemnt n so on,compare and shift it
+pass=arr.length-1
 so 1st pass 40,10
 [10,40,30,20]
  40,30
@@ -11,6 +12,9 @@ so 1st pass 40,10
 10,30
 [10,30,20,40]
 30,20
+[10,20,30,40]
+3rd pass
+10,20
 [10,20,30,40]
 */
 
