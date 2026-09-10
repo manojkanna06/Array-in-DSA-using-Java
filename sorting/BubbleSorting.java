@@ -19,8 +19,10 @@ so 1st pass 40,10 i=0,j<3
 10,20
 [10,20,30,40]
 pass 3pass.so 0,1,2
-
-innerloop
+Best Case	O(n)	Array already sorted
+Average Case	O(n²)	Multiple comparisons + swaps
+Worst Case	O(n²)	Array is reverse sorted
+Space	O(1)	Only temp is used
 */
 
 class BubbleSorting {
