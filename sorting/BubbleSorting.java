@@ -2,20 +2,25 @@
 before
 bubble takes 2 elemnt n so on,compare and shift it
 pass=arr.length-1
-so 1st pass 40,10
+so outer loop i<arr.length-1,give i=0,1,2
+inner loop j<arr.length-1-i,give j<3,j=0,1,2
+so 1st pass 40,10 i=0,j<3
 [10,40,30,20]
  40,30
 [10,30,40,20]
  40,20
 [10,30,20,40]
-2nd pass
+2nd pass i=1,j<2
 10,30
 [10,30,20,40]
 30,20
 [10,20,30,40]
-3rd pass
+3rd pass i=2,j<1
 10,20
 [10,20,30,40]
+pass 3pass.so 0,1,2
+
+innerloop
 */
 
 class BubbleSorting {
