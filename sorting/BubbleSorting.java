@@ -1,3 +1,19 @@
+/*[40,10,30,20]
+before
+bubble takes 2 elemnt n so on,compare and shift it
+so 1st pass 40,10
+[10,40,30,20]
+ 40,30
+[10,30,40,20]
+ 40,20
+[10,30,20,40]
+2nd pass
+10,30
+[10,30,20,40]
+30,20
+[10,20,30,40]
+*/
+
 class BubbleSorting {
     public static void main(String[] args) {
         int[] arr = {40, 10, 30, 20};
