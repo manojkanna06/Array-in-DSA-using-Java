@@ -23,6 +23,8 @@ Best Case	O(n)	Array already sorted
 Average Case	O(n²)	Multiple comparisons + swaps
 Worst Case	O(n²)	Array is reverse sorted
 Space	O(1)	Only temp is used
+* Important: O(n) best case is only for the optimized Bubble Sort with a swapped flag.
+The exact program we used does not have that optimization, so its best case is also O(n²).
 */
 
 class BubbleSorting {
